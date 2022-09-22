@@ -27,9 +27,9 @@ console.log(foods.grapes);
 foods.brownies = 55;
 
 
-#-------------------
+//#-------------------
 // Part 2: Email
-#-------------------
+//#-------------------
 
 
 // Think about all the pieces of information associated with one single email in your inbox.
@@ -38,21 +38,29 @@ foods.brownies = 55;
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
-// Write code that logs your email object to the terminal.
+var email = {
+  sender: "kleemuir@gmail.com",
+  subject: "just checking in",
+  date: "09/22/22",
+  recipient: "mom123@hotmail.com",
+  time: "03:15 pm"
+};
 
+// Write code that logs your email object to the terminal.
+console.log(email);
 
 // Write code that logs all of the 'keys' of the email object
 // you created above:
-// YOUR CODE HERE
+console.log(Objects.keys(email));
 
 // Write code that logs all of the 'values' of the email object
 // you created above:
-// YOUR CODE HERE
+console.log(Objects.values(email));
 
 
-#-------------------
+//#-------------------
 // Part 3: Many Emails - CHALLENGE!
-#-------------------
+//#-------------------
 
 // LONG EXAMPLE:
 // Now that we've learned about Objects AND Arrays, we can combine them.
