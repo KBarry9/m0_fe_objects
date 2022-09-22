@@ -51,11 +51,11 @@ console.log(email);
 
 // Write code that logs all of the 'keys' of the email object
 // you created above:
-console.log(Objects.keys(email));
+console.log(Object.keys(email));
 
 // Write code that logs all of the 'values' of the email object
 // you created above:
-console.log(Objects.values(email));
+console.log(Object.values(email));
 
 
 //#-------------------
@@ -106,3 +106,28 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+emails = [
+  {
+    sender: "kleemuir@gmail.com",
+    subject: "just checking in",
+    date: "09/22/22",
+    recipient: "mom123@hotmail.com",
+    time: "03:15 pm"
+  },
+  {
+    sender: "student1@gmail.com",
+    subject: "hello",
+    date: "09/02/22",
+    recipient: "student2@hotmail.com",
+    time: "03:45 pm"
+  },
+  {
+    sender: "instructor1@gmail.com",
+    subject: "lesson plans",
+    date: "08/22/22",
+    recipient: "instructor2@hotmail.com",
+    time: "04:15 pm"
+  }
+];
+
+console.log(emails)
