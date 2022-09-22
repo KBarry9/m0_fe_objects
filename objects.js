@@ -5,7 +5,7 @@
 // the desired result. To check your work, run this
 // file in your Terminal.
 
-foods = {
+var foods = {
   apples: 23,
   grapes: 507,
   eggs: 48
